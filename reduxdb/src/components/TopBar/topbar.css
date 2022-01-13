@@ -1,0 +1,14 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    position:sticky;
+    top:0;    
+    background-color: orange;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar__container h1 {
+    color:burlywood
+}

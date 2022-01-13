@@ -1,0 +1,11 @@
+.home {
+    flex:4;    
+    background:orchid;
+}
+
+.home__container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:10px; 
+}

@@ -1,0 +1,10 @@
+.leftbar{
+    flex:1;    
+    background-color: #eee;
+}
+
+.leftbar__container {
+    padding: 10px;
+    color:red;
+}
+

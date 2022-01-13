@@ -1,0 +1,39 @@
+.form {
+    width: 100%;
+}
+
+.form__container {
+    display:flex;            
+    margin:15px auto;    
+    justify-content: center;
+    padding: 10px;
+    display:flex;                
+    padding: 10px;
+    display:flex;        
+    flex-direction: row;
+}
+
+form {
+    margin:15px auto;    
+    padding: 10px;
+    display:flex;        
+    flex-direction: row;
+}
+
+input {
+    border-bottom: 1px solid grey;
+    color:black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+button {
+    background-color: teal;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius:5px;
+}

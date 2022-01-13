@@ -1,0 +1,53 @@
+.card__container{
+    display:flex;    
+    justify-content: center;
+    margin:0 auto;
+    width: 90%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background:orange;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.card__content{
+    text-align:center;    
+    padding: 15px;
+}
+
+.card__content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.card__btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:4;
+}
+
+.card__btn button {
+    background-color: teal;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius:5px;
+}
+
+.card__btn input {
+    border-bottom: 1px solid grey;
+    color:black;
+    padding: 5px;
+
+}
+
